@@ -5,6 +5,6 @@ This repository contains teh source code for the network-based pipeline for iden
 
 
 
-<img align="left" src="documents/pipeline.png" width="400" > 
+<img align="left" src="documents/pipeline.png" width="600" > 
 
 ## 

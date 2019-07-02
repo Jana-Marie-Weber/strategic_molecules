@@ -12,10 +12,13 @@ import numpy as np
 import cPickle as pickle
 
 
+#-------------------------------------
+#Variables
+SCREENING_NETWORK=""
+#------------------------------------
 
-
-#load the limonene graph for screening of feedstock, hubs, and pharmaceuticals
-g=gt.load_graph("limonene_cent_k_core.gt")
+#loading of a second graph used in previous studies. It is larger and shows more than 90% of the 4HAP graph. It potentially includes more feedstock and pharmaceutical regions.
+g=gt.load_graph(SCREENING_NETWORK)
 #get rid of parallel edges
 gt.remove_parallel_edges(g)
 

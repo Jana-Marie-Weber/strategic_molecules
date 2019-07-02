@@ -1,6 +1,6 @@
 # NREL analysis 
 
-The script NREL_analysis.py looks up the NREL building blocks in the 4-HAP network and checks if these were identified by the strategic molecule algorithm. 
+The script [NREL_analysis.py] looks up the NREL building blocks in the 4-hydroxyacetophenone (4-HAP) network and checks if these were identified by the strategic molecule algorithm.  
 
 The analysis consits of follwoing steps:
 1. Loading of the network, the strategic molecules, and the NREL building blocks
@@ -11,5 +11,5 @@ The analysis consits of follwoing steps:
 The results are documented in a text file. 
 
 
-
+[NREL_analysis.py]: https://github.com/Jana-Marie-Weber/strategic_molecules/blob/master/3_screening/NREL/NREL_analysis.py
 

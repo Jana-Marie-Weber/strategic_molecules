@@ -13,6 +13,8 @@ The script [experiment1_strategic_molecules_random.py] tests all the cut-offs fo
 
 The script [experiment1_random.py] is used to test 10 sets of random moelcules within each cut-off.
 
+<img align="centre" src="../../documents/randoms.png" width="400" > 
+
 The first part of the scripts loads the network used for screening `SCREENING_NETWORK`, the list of strategic molecules used `hubs_contamination0.001.p`, and a list of Top200 pharmaceuticals `output1.dat`. The pharmaceuticals are used in the following experiments. 
 
 The second part of the script defines the three considered biologial feedstock components and assembles sets of randomly chosen molecules in the network. It is important to note that the DF screening algorithm works on the [Index number (numbering within graph-tools)] of the nodes and not on the given names. Hence, index numbering of nodes for the feedstock components were looked up previously and hardcoded here. 
@@ -21,6 +23,8 @@ The third part of the script performs the DF search of within cut-off value 1, 2
 
 ## Experiment no. 2
 The script [experiment2_strategic_molecuels_ranking.py] evaluates the connectivity of the strategic molecules within reaction paths from feedstock crude sulphate turpentine (CST) components to pharmaceutical products. 
+
+<img align="centre" src="../../documents/ranking.png" width="600" > 
 
 The algorithm operates on the highest 56 strategic molecules, hence relative ranking values are computed between these. 
 

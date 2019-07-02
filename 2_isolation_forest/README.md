@@ -1,6 +1,6 @@
 # Isolation forest 
 
-The Isolation forest algorithm detects outliers based on an ensemble of decision trees. Each tree branches for randomly chosen features and a randomly chosen value between the minumum and the maximum value of the feature. Hence, arbitrary shapes of inlier and outlier sections may be identified based on teh density around each data point. The following image illustrates the working principles of the algorithm. Part (a) shows the isolation of an inlier data point from the rest of the data distribution, while part (b) shows the isolation of an outlier data point from the rest of the distribution. The red triangle in (b) can be isolated in fewer randomly chosen splits than teh one in (a). 
+The Isolation forest algorithm detects outliers based on an ensemble of decision trees. Each tree branches for randomly chosen features and a randomly chosen value between the minimum and the maximum value of the feature. Hence, arbitrary shapes of inlier and outlier sections may be identified based on the density around each data point. The following image illustrates the working principles of the algorithm. Part (a) shows the isolation of an inlier data point from the rest of the data distribution, while part (b) shows the isolation of an outlier data point from the rest of the distribution. The red triangle in (b) can be isolated in fewer randomly chosen splits than the one in (a). 
 
 
 <img align="centre" src="../documents/isolation.png" width="400" > 
@@ -13,7 +13,7 @@ The script [paper_full_routine.py] performs the classification of the network wi
 3. We use a min/max normalisation from sklearn to normalise the values. 
 4. To prove normalisation we print the new min and max values of all features to a separate file. 
 5. We perform PCA on the data. First considering all 5 principal components and looking at the correlations of the features with them and second reducing the data to two dimensions. 
-6. On the reduced and normalised data we perform an isolation forest outlier detection. A set of contamination rates was decided on previously, based on rough estimates about the number of strategic mlecules. All samples are used to build the decision trees. For further parameterisation please see the [paper_full_routine.py].
+6. On the reduced and normalised data we perform an isolation forest outlier detection. A set of contamination rates was decided on previously, based on rough estimates about the number of strategic molecules. All samples are used to build the decision trees. For further parameterisation please see the [paper_full_routine.py].
 7. The prediction of out or inlier are saved in csv format for plotting. 
 8. Rough plots are generated in python for fast evaluation of results.
 9. All hubs found in that specific rate are saved to a dictionary and printed at the end. 

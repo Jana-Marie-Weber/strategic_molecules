@@ -21,8 +21,13 @@ element=int(sys.argv[1])
 #---------------------------------------------------------------------------
 print(element)
 
-#the limonene graph is loaded into the system and parallel edges are removed.
-g=gt.load_graph("limonene_cent_k_core.gt")
+#-------------------------------------
+#Variables
+SCREENING_NETWORK=""
+#------------------------------------
+
+#loading of a second graph used in previous studies. It is larger and shows more than 90% of the 4HAP graph. It potentially includes more feedstock and pharmaceutical regions.
+g=gt.load_graph(SCREENING_NETWORK)
 gt.remove_parallel_edges(g)
 
 #a timer is started for the CPU comparison of the two methods

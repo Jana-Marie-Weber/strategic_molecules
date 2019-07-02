@@ -1,9 +1,11 @@
 # Isolation forest 
 
-The Isolation forest algorithm detects outliers based on an ensemble of decision trees. Each tree branches for randomly chosen features and a randomly chosen value between the minumum and the maximum value of the feature. Hence, arbitrary shapes of inlier and outlier sections may be identified based on teh density around each data point. The following image illustrates the working principles of the algorithm. 
+The Isolation forest algorithm detects outliers based on an ensemble of decision trees. Each tree branches for randomly chosen features and a randomly chosen value between the minumum and the maximum value of the feature. Hence, arbitrary shapes of inlier and outlier sections may be identified based on teh density around each data point. The following image illustrates the working principles of the algorithm. Part (a) shows the isolation of an inlier data point from the rest of the data distribution, while part (b) shows the isolation of an outlier data point from the rest of the distribution. The red triangle in (b) can be isolated in fewer randomly chosen splits than teh one in (a). 
 
 
-<img align="centre" src="documents/isolation.png" width="600" > 
+<img align="centre" src="../documents/isolation.png" width="400" > 
+
+## Implementation
 
 The script [paper_full_routine.py] performs the classification of the network with different contamination rates using the isolation forest classifier. The steps are:
 1. We load the network with the computed features.

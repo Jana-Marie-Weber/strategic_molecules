@@ -5,7 +5,7 @@ This repository contains the source code for the network-based pipeline for the 
 
 
 
-<img align="left" src="documents/pipeline.png" width="600" > 
+<img align="centre" src="documents/pipeline.png" width="600" > 
 
 ## 
 

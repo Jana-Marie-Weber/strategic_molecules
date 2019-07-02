@@ -12,9 +12,13 @@ import numpy as np
 import cPickle as pickle
 import random 
 
+#-------------------------------------
+#Variables
+SCREENING_NETWORK=""
+#------------------------------------
 
 #loading of a second graph used in previous studies. It is larger and shows more than 90% of the 4HAP graph. It potentially includes more feedstock and pharmaceutical regions.
-g=gt.load_graph("limonene_cent_k_core.gt")
+g=gt.load_graph(SCREENING_NETWORK)
 print("...removing parallel edges...")
 gt.remove_parallel_edges(g)
 

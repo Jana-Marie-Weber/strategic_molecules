@@ -24,7 +24,6 @@ The third part of the script performs the DF search of within cut-off value 1, 2
 ## Experiment no. 2
 The script [experiment2_strategic_molecuels_ranking.py] evaluates the connectivity of the strategic molecules within reaction paths from feedstock crude sulphate turpentine (CST) components to pharmaceutical products. 
 
-<img align="centre" src="../../documents/ranking.png" width="600" > 
 
 The algorithm operates on the highest 56 strategic molecules, hence relative ranking values are computed between these. 
 

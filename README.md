@@ -7,6 +7,9 @@ This repository contains the source code for the network-based pipeline for the 
 
 <img align="centre" src="documents/pipeline.png" width="600" > 
 
+## Requirements
+We used python 2.7.12 (updated Nov 2018) for the computation. All requirments can be seen in the [requirment.txt] file. Graph-tool was installed from source, as it has C++ dependencies, for future use we would advise to use the graph-tool docker as recommended on the [graph-tool webpage]. 
+
 ## Using the algorithm 
 
 To use the stratgeic molecules in **a similar region of chemistry**, simply refer to [(Weber et al., 2019)] and use the full list of strategic moelcules including structures and Reaxys IDs from the Electronic Supplementary Information (ESI).
@@ -23,3 +26,6 @@ The folders 1_feature_computation, 2_isolation_forest, and 3_screening each cont
 [graph-tool]: https://graph-tool.skewed.de/static/doc/quickstart.html
 [feature_calculation.py]: https://github.com/Jana-Marie-Weber/strategic_molecules/blob/master/1_feature_computation/feature_calculation.py
 [(Jacob et al., 2018)]: https://pubs.rsc.org/en/content/articlehtml/2018/re/c7re00129k
+
+[graph-tool webpage]: https://git.skewed.de/count0/graph-tool/wikis/installation-instructions#installing-using-docker
+[requirment.txt]: https://github.com/Jana-Marie-Weber/strategic_molecules/blob/master/requirements.txt

@@ -47,7 +47,7 @@ The script [experiment3_DF_RPDF.py] computes CPU times and the number of paths f
 The script [experiment3_RPDF.py] computes CPU times and the number of paths for RPDF with cut-off 6. 
 
 
-[(Weber et al., 2019)]: https://pubs.rsc.org/en/content/articlehtml/2018/re/c7re00129k
+[(Weber et al., 2019)]: https://pubs.rsc.org/en/content/articlelanding/2019/re/c9re00213h/unauth#!divAbstract
 [experiment1_strategic_molecules_random.py]: https://github.com/Jana-Marie-Weber/strategic_molecules/blob/master/3_screening/Screening_experiments/experiment1_strategic_molecules_random.py
 [experiment1_random.py]: https://github.com/Jana-Marie-Weber/strategic_molecules/blob/master/3_screening/Screening_experiments/experiment1_random.py
 [Index number (numbering within graph-tools)]: https://graph-tool.skewed.de/static/doc/graph_tool.html#graph_tool.Graph.vertex_index

@@ -8,7 +8,7 @@ This repository contains the source code for the network-based pipeline for the 
 <img align="centre" src="documents/pipeline.png" width="600" > 
 
 ## Requirements
-We used python 2.7.12 (updated Nov 2018) for the computation. All requirements can be seen in the [requirment.txt] file. Graph-tool was installed from source, as it has C++ dependencies, for future use we would advise to use the graph-tool docker as recommended on the [graph-tool webpage]. 
+We used python 2.7.12 (updated Nov 2018) for the computation. System configurations can be seen in the [requirment.txt] file. Graph-tool was installed from source, as it has C++ dependencies, for future use we would advise to use the graph-tool docker as recommended on the [graph-tool webpage]. 
 
 ## Using the algorithm 
 
@@ -23,7 +23,7 @@ The folders 1_feature_computation, 2_isolation_forest, and 3_screening each cont
 
 
 
-[(Weber et al., 2019)]: https://pubs.rsc.org/en/content/articlehtml/2018/re/c7re00129k
+[(Weber et al., 2019)]: https://pubs.rsc.org/en/content/articlelanding/2019/re/c9re00213h/unauth#!divAbstract
 [graph-tool]: https://graph-tool.skewed.de/static/doc/quickstart.html
 [feature_calculation.py]: https://github.com/Jana-Marie-Weber/strategic_molecules/blob/master/1_feature_computation/feature_calculation.py
 [(Jacob et al., 2018)]: https://pubs.rsc.org/en/content/articlehtml/2018/re/c7re00129k

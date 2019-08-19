@@ -20,6 +20,6 @@ In the [feature_calculation.py] script we use the [graph-tools] library to compu
 [betweenness centrality]: https://graph-tool.skewed.de/static/doc/centrality.html?highlight=betweenness#graph_tool.centrality.betweenness
 [HITS y-hubs]: https://graph-tool.skewed.de/static/doc/centrality.html?highlight=betweenness#graph_tool.centrality.hits
 [pagerank]: https://graph-tool.skewed.de/static/doc/centrality.html?highlight=betweenness#graph_tool.centrality.pagerank
-[(Weber et al., 2019)]: https://pubs.rsc.org/en/content/articlehtml/2018/re/c7re00129k
+[(Weber et al., 2019)]: https://pubs.rsc.org/en/content/articlelanding/2019/re/c9re00213h/unauth#!divAbstract
 [graph-tools]: https://graph-tool.skewed.de
 [feature_calculation.py]:https://github.com/Jana-Marie-Weber/strategic_molecules/blob/master/1_feature_computation/feature_calculation.py

@@ -7,12 +7,15 @@ Created on Thu Apr 11 10:03:31 2019
 """
 
 #NREL screening
+#you nee dto specify the network you want to load
+NETWORK_FILE=""
+
 
 import cPickle as pickle
 import graph_tool.all as gt
 
 hubs=pickle.load(open("hubs_contamination0.001.p","rb"))
-g=gt.load_graph("network_4HAP.gt")
+g=gt.load_graph(NETWORK_FILE)
 
 NREL_BB=[]
 with open("NREL_Building_Blocks.dat","rb") as infile:

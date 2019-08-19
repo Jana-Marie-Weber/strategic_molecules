@@ -12,7 +12,7 @@ We used python 2.7.12 (updated Nov 2018) for the computation. System configurati
 
 ## Using the algorithm 
 
-To use the strategic molecules in **a similar region of chemistry**, simply refer to [(Weber et al., 2019)] and use the full list of strategic molecules including structures and Reaxys IDs from the Electronic Supplementary Information (ESI).
+To use the strategic molecules in **a similar region of chemistry**, simply refer to [(Weber et al., 2019)] and use the full list of strategic molecules including structures and Reaxys IDs from the Electronic Supplementary Information (ESI). This data set is centred around 4-hydroxyacetophenone and contains up to three reaction steps from the centre.
 
 To use this algorithm on your own set of **chemical reaction data**, build a network structure based on your data, e.g. using [graph-tool]. Molecules are represented by nodes and reactions are represented by edges. We wired all reactants to all products and only attached molecules identification numbers to the nodes using graph-tools property maps [(Jacob et al., 2018)]. After network assembly, simply download all files contained in this repository and start the pipeline with the feature computation. The variable `NETWORK_FILE` in [feature_calculation.py] should be adjusted to your network in ".gt" format and the variable `NETWORK_FEATURE_FILE` to the name you wish to save the network with features as. 
 

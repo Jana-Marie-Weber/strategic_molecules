@@ -1,6 +1,6 @@
 # Screening 
 
-Different screening methods are performed on basis of strategic molecules. As outlined in [(Weber et al., 2019)] the following experiments were conducted: 
+Different screening methods are performed on basis of strategic molecules. The strategic molecules were identified based on the 4-HAP data set and the network used for screening is based on a data set centred around limonene. For further information see [(Weber et al., 2019)]. the following experiments were conducted: 
 
 1. Experiment no. 1: Depth-first (DF) searches from a renewable feedstock component to sets of randomly chosen molecules and to the set of strategic molecules are performed. 
 2. Reduced Paths Depth First (RPDF) searches are conducted over strategic molecules to compare them with each other. Three steps from CST to strategic molecules and three steps from the strategic molecules to pharmaceuticals are tested.

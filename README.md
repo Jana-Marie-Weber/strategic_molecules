@@ -1,6 +1,6 @@
 # Identification of strategic molecules
 
-This repository contains the source code for the network-based pipeline for the identification of strategic molecules by [(Weber et al., 2019)]. Due to license agreements the datamining part is not part of this repository. The pipeline outlines steps 3 to 5 assuming a network-based data collection had been assembled previously. To cite from this work use [(Weber et al., 2019)]. 
+This repository contains the code for the network-based pipeline for the identification of strategic molecules by [(Weber et al., 2019)]. Due to license agreements the datamining part is not part of this repository. The pipeline outlines steps 3 to 5 assuming a network-based data collection had been assembled previously. To cite from this work use [(Weber et al., 2019)]. 
 
 
 

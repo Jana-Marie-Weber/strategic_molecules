@@ -15,7 +15,7 @@ The script [experiment1_random.py] is used to test 10 sets of random molecules w
 
 <img align="centre" src="../../documents/randoms.png" width="400" > 
 
-The first part of the scripts loads the network used for screening `SCREENING_NETWORK`, the list of strategic molecules used `hubs_contamination0.001.p`, and a list of Top200 pharmaceuticals `output1.dat`. The pharmaceuticals are used in the following experiments. 
+The first part of the scripts loads the network used for screening `SCREENING_NETWORK`, the list of strategic molecules used `hubs_contamination0.001.p`, and a list of Top200 pharmaceuticals `pharmaceuticals.dat`. The pharmaceuticals are used in the following experiments. 
 
 The second part of the script defines the three considered biological feedstock components and assembles sets of randomly chosen molecules in the network. It is important to note that the DF screening algorithm works on the [Index number (numbering within graph-tools)] of the nodes and not on the given names. Hence, index numbering of nodes for the feedstock components were looked up previously and hardcoded here. 
 

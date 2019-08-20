@@ -11,12 +11,12 @@ The script [paper_full_routine.py] performs the classification of the network wi
 1. We load the network with the computed features.
 2. We iterate once through the network and save all feature values and the nodes identification to python lists. 
 3. We use a min/max normalisation from sklearn to normalise the values. 
-4. To prove normalisation we print the new min and max values of all features to a separate file. 
-5. We perform PCA on the data. First considering all 5 principal components and looking at the correlations of the features with them and second reducing the data to two dimensions. 
+4. To double-check normalisation we print the new min and max values of all features to a separate file. 
+5. We perform PCA on the data. First considering all 5 principal components and looking at the correlations of the features with them and second reducing the data to two dimensions(here 98% of the data varience is covered with two dimensions, for other cases please check the varience coverage). 
 6. On the reduced and normalised data we perform an isolation forest outlier detection. A set of contamination rates was decided on previously, based on rough estimates about the number of strategic molecules. All samples are used to build the decision trees. For further parameterisation please see the [paper_full_routine.py].
-7. The prediction of out or inlier are saved in csv format for plotting. 
+7. The prediction of out- or inlier are saved in csv format for plotting. 
 8. Rough plots are generated in python for fast evaluation of results.
-9. All hubs found in that specific rate are saved to a dictionary and printed at the end. 
+9. All strategic molecules found in that specific rate are saved to a dictionary and printed at the end. 
 
 All results are saved.
 

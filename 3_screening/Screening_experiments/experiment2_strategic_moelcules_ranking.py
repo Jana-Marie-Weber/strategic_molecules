@@ -15,6 +15,7 @@ import cPickle as pickle
 #-------------------------------------
 #Variables
 SCREENING_NETWORK=""
+PHARMA_LIST="pharmaceuticals.dat"
 #------------------------------------
 
 #loading of a second graph used in previous studies. It is larger and shows more than 90% of the 4HAP graph. It potentially includes more feedstock and pharmaceutical regions.
@@ -36,8 +37,8 @@ if status==1:
     #list of all REAXIS IDs of top200 pharmaceuticals
     Top_200=[]
     
-    # The output1.dat contains pharmaceutical products and their xrn id.
-    with open("output1.dat") as file:
+    # The PHARMA_LIST contains pharmaceutical products and their xrn id.
+    with open(PHARMA_LIST) as file:
         #we need to split the names from the xrn id so that we can perform a search with a list of xrn ids.
         for line in file:
             splitline=line.split()

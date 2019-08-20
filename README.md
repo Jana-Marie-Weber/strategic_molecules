@@ -19,7 +19,7 @@ To use this algorithm on your own set of **chemical reaction data**, build a net
 The general workflow of the pipeline can be applied to **different network types** as well. Build a network structure based on your data, e.g. using [graph-tool], and download all files from this repository. You might need to manually modify the selected features so that they best describe optimal locations in your network problem. Before applying the isolation forest outlier detection part, verify that optimal locations rank exceptional in your feature value distributions. 
 
 ## Repository organisation 
-The folders 1_feature_computation, 2_isolation_forest, and 3_screening each contain parts of the pipeline and their own README.md explaining code and implementation. After specifying the variable `NETWORK_FILE` in [feature_calculation.py] in 3_feature_computation, the pipeline may be used without further specification. For questions please contact: <jmw254@cam.ac.uk>.
+The folders 1_feature_computation, 2_isolation_forest, and 3_screening each contain parts of the pipeline and their own README.md explaining code and implementation. Please specify the variable `NETWORK_FILE` in [feature_calculation.py] in 3_feature_computation and follow the instructions throughout the rest of the pipeline. For questions please contact: <jmw254@cam.ac.uk>.
 
 
 

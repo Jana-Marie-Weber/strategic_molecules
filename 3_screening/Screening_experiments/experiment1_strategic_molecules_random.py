@@ -15,6 +15,7 @@ import random
 #-------------------------------------
 #Variables
 SCREENING_NETWORK=""
+PHARMA_LIST="pharmaceuticals.dat"
 #------------------------------------
 
 #loading of a second graph used in previous studies. It is larger and shows more than 90% of the 4HAP graph. It potentially includes more feedstock and pharmaceutical regions.
@@ -42,7 +43,7 @@ if first_time==1:
     all_xrns=[]
     
     #opening of the pharmaceutical inputs and saving their xrn ID.
-    with open("output1.dat") as file:
+    with open(PHARMA_LIST) as file:
         for line in file:
             splitline=line.split()
             RXID=splitline[1]
